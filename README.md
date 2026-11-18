@@ -17,6 +17,9 @@ python -m pytest -v
 pytest를 사용하여 정상 입력, 예외 상황, 경계값 등을 테스트했습니다.
 
 직접 작성한 테스트와 AI가 생성한 테스트를 각각 실행하여 결과를 비교했습니다.
+### 테스트 실행 결과
+
+![pytest 테스트 통과 화면](pytest_test_result.png)
 
 ## 5. 파일 구성
 - `load_scores.py`: 성적 CSV 처리 프로그램
