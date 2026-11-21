@@ -1,24 +1,54 @@
+
 # Python
 __pycache__/
 *.py[cod]
+*.pyd
 *.egg-info/
 .venv/
 venv/
 env/
+ENV/
 
-# pytest · coverage
+# pytest 및 coverage
 .pytest_cache/
 .coverage
 .coverage.*
 htmlcov/
 coverage.xml
+.tox/
+.nox/
+.cache/
+.hypothesis/
+cover/
 
-# 실습 중 만들어지는 임시 파일
+# 임시 데이터 파일
 임시.csv
 tmp*.csv
 
-# 편집기 · 운영체제
+# 편집기 및 개발 환경
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+*.log
+
+# Python 빌드 및 배포
+build/
+dist/
+downloads/
+.eggs/
+wheels/
+share/python-wheels/
+*.egg
+MANIFEST
+
+# 기타 개발 도구
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.ipynb_checkpoints/
+.pybuilder/
+.pdm-python
+.pdm-build/
+.pixi/
